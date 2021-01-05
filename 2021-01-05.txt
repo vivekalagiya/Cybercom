@@ -1,0 +1,13 @@
+i practiced all command of git bash given in document.
+mkdir
+git clone
+cd
+git remote -v
+git fetch
+git checkout
+git status 
+git add
+git commit 
+git push
+git checkout
+
