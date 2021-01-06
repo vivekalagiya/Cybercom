@@ -1,1 +1,3 @@
-today i practiced modify file and then add ,push and commit file through command and then merging branches.
+create 2 new repo and create different branch for practicing.
+practiced of add commit and push command.
+and then practiced revert and HEAD command.
