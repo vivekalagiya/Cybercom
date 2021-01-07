@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 create 2 new repo and create different branch for practicing
 practiced of add commit and push command
 and then practiced revert and HEAD command
+=======
+create 2 new repo and create different branch for practicing.
+practiced of add commit and push command.
+and then practiced revert and HEAD command.
+>>>>>>> origin/day3
