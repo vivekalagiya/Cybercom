@@ -1,1 +1,9 @@
-modify my file in remote repository
+today i did modify file through remote repository and  pull into local machine by git command git pull/git fetch-git merge.
+i did practice of below command:
+git diff 
+git show 
+git status 
+git restore "file"
+git restore --staged "file"
+git log
+git HEAD
