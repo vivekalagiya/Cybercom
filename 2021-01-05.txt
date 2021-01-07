@@ -1,4 +1,5 @@
-i practiced all command of git bash given in document.
+I generate SSH key and create repository and clone project to local machine with git command
+i did practiced of all command 
 mkdir
 git clone
 git remote -v

@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-create 2 new repo and create different branch for practicing
-practiced of add commit and push command
-and then practiced revert and HEAD command
-=======
-create 2 new repo and create different branch for practicing.
-practiced of add commit and push command.
-and then practiced revert and HEAD command.
->>>>>>> origin/day3
+today,I create 2 new repo and create different branch for practicing and merging the different branch
+modify file in local maachine and then check differnce with "git diff __" command and check git status and then add commit and push file to remote repo.
+chcek "git log" and through this command i got commit id and use it for revert the commit
+and then practiced revert command
+
