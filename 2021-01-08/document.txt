@@ -1,0 +1,2 @@
+today i did practiced html tag of heading ,table ,list, division.
+and in javascript i did practiced console,variable and data types,variable mutation ,type coercion,typeof ,alert and prompt .
