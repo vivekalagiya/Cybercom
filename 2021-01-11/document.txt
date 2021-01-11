@@ -1,0 +1,2 @@
+today i learned if/else statement,boolean logic, else-if statement,ternary operator,switch statement, truthy and falsy values and equality operators, function, function statements and function expression ,array
+in array, i did practiced initialize new array ,mutate array data, different data type push,pop, unshift,shift,indexof attribute.
