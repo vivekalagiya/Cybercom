@@ -1,0 +1,3 @@
+today i did practiced html and css to make different different table and form. 
+in css i practiced inline css,embedded css.
+in javascript , i learned how to our code execute. what is execution context ,what is global execution context,hoisting,this keyword.
