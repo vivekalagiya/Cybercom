@@ -1,0 +1,93 @@
+<HTML>
+    <HEAD>
+    <TITLE> form </title>
+    </head>
+    <h1> Registration</h1>
+    <body BGCOLOR="green">
+    <h4> Student Registration form </h4>
+    <form>
+    <table>
+    <tr>
+    <th> Name </th>
+    <td> <input type="text" name="name"/> </td>
+    </tr>
+    <tr>
+    <th> Father name </th>
+    <td> <input type="text" name="Father name"/> </td>
+    </tr>
+    <tr>
+    <th> Address </th>
+    <td> <input type="text" name="Address"/> </td>
+    </tr>
+    <tr>
+    <th> Sex </th>
+    <td>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">feMale</label>
+    
+    </tr>
+    <tr>
+    <th> State </th>
+    <td> <select>
+    <option value="Asam"/> Asam
+    <option value="Banglor"/> Banglor
+    <option value="Gujarat"/> Gujarat
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <th> Distric </th>
+    <td> <select>
+    <option value="ahmedabad"/>Drskoi
+    <option value="vadodara"/>Akola
+    <option value="surat"/>Utru
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <th> City </th>
+    <td> <select>
+    <option value="Mumbai"/>Mumbai
+    <option value="Delhi"/>Delhi
+    <option value="Ahmedabad"/>Ahmedabad
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <th> Pincode </th>
+    <td> <input type="number" name="Pincode"/> </td>
+    </tr>
+    <tr>
+    <th> Course </th>
+    <td> <select>
+    <option value="IT"/>IT
+    <option value="comp"/>Computer
+    <option value="civil"/>Civil
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <th> Email id </th>
+    <td> <input type="email" name="Email id"/> </td>
+    </tr>
+    <tr>
+    <th> Pincode </th>
+    <td> <input type="number" name="Pincode"/> </td>
+    </tr>
+    <tr>
+    <th> DOB </th>
+    <td> <input type="date">
+    </tr>
+    <tr>
+    <th> Mobail No. </th>
+    <td> <input type="tel" pattern="+[0-9] {2} [0-9] {10}" placeholder="+91 9876543210"/> </td>
+    </tr>
+    </table>
+    <br>
+    <input type="button" value="Reset"/>
+    <input type="button" value="Submit"/>
+    </form>
+    </body>
+    </html>
