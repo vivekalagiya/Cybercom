@@ -1,0 +1,11 @@
+today i learned event and event handling, object and function in javascript.
+difference between primitives and object.
+constructor ,instances.
+inheritance in javascript.
+prototype and prototype chains.
+function constructor
+creating object using object.create
+function passing function ass argument.
+create practice table in HTML.
+tooltip text in HTML(pop up on mouse over)
+fibonacci series using basic javascript.
