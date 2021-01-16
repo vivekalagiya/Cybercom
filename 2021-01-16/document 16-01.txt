@@ -1,0 +1,14 @@
+today i learned,
+function returning function
+immediately invoked function expression(IIFE)
+closures: An inner function has always access to the variables and           parameters of its outer function even after the outer function has           returned.
+Bind, call and apply method
+
+difference between ES5 and ES6/ES2015
+variable declaration with let and const
+difference between function scope and blocked scope
+function scope: var
+blocked sccope: let, const
+
+Blocks and IIFEs
+string in ES6
