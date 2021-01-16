@@ -1,0 +1,16 @@
+today, i learned ,
+
+cross site scripting - xss attack: in input text, we put html tag or any script (javascript) and it store as html tag and script (don't filter input)
+- using javascript anyone use our cookies and anything do in webpage ...its called xss attack . so we have to use content security policy
+
+content security policy: 
+res.setHeader("content-security-policy","script src http://localhost:8080")
+so in this we define javascript source which we want to add.
+
+cookies,local storage, session storage:
+local storage accessible from any window while session storage accessible from same tab only.capacity of local storage is 10 mb and session storage is 5 mb.both storage has key value pair.
+
+DOM: document object model;
+structured representation of an HTML document;
+The DOM is used to connect webpages to scripts like javascript;
+event and event handling;

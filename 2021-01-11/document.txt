@@ -1,7 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 today i learned if/else statement,boolean logic, else-if statement,ternary operator,switch statement, truthy and falsy values and equality operators, function, function statements and function expression ,array
 in array, i did practiced initialize new array ,mutate array data, different data type push,pop, unshift,shift,indexof attribute.
 =======
 today i learned if/else statement ,boolean logic ,else-if statement, ternary operator, switch statement, truthy and falsy value,equality operator, functions, function statement and function expression, arrayin javascript.
 in array i did practiced of initialize array,mutate array data ,different data type,push,pop,unshift,shift,indexof attributes.
 >>>>>>> origin/html-js
+=======
+
+today i learned if/else statement ,boolean logic ,else-if statement, ternary operator, switch statement, truthy and falsy value,equality operator, functions, function statement and function expression, arrayin javascript.
+in array i did practiced of initialize array,mutate array data ,different data type,push,pop,unshift,shift,indexof attributes.
+
+>>>>>>> edd7b7538aedb4da6d10611531351e765b29949e
