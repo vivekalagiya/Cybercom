@@ -1,3 +1,4 @@
+
 today i learned,
 function returning function
 immediately invoked function expression(IIFE)
@@ -11,4 +12,5 @@ function scope: var
 blocked sccope: let, const
 
 Blocks and IIFEs
+
 string in ES6
