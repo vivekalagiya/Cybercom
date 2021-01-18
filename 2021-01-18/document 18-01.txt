@@ -1,0 +1,7 @@
+today i learned
+arrow function ( => ),map function
+Arrow function : lexical 'this' keyword
+destructuring 
+Arrays in ES6/ES2015
+
+In HTMl i learned how to text in between line using css.
