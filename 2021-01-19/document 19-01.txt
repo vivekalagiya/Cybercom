@@ -1,0 +1,5 @@
+today i learned,
+classes in ES6
+classes with subclasses
+inheritance 
+i did practice of prototype chain, this keyword.

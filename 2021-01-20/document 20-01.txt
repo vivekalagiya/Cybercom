@@ -1,0 +1,1 @@
+today i did practice of an object ,properties and method of object ,for..in loop ,this keyword,prototype of object form validation in javascript, data store to local storage in array.
