@@ -2,55 +2,8 @@
 <html>
 <head>
     <title>practice8</title>
-    <style>
-        body{
-            padding-left: 25%;
-        }
-        div{
-            border: 1px solid ;
-            background-color: rgb(238, 245, 245);
-            width: 500px;
-            text-align: center;
+    <link rel="stylesheet" href="practice8.css"
 
-        }
-        h3{
-            text-align: left;
-            padding-left: 5px;
-        }
-         input[type=submit], input[type=reset] {
-        background-color: #4CAF50;
-        border: none;
-        border-radius: 20px;
-        color: white;
-        padding: 8px 16px;
-        text-decoration: none;
-        margin: 20px 20px;
-        cursor: pointer;
-        }
-        input[type=text] {
-            width: 250px;
-
-        }
-        td{
-            padding-bottom: 8px;
-            text-align: left;
-            padding-left: 5px;
-        }
-        .a{
-            width: 150px;
-            text-align: right;
-        }
-        .b{
-            width: 239px;
-        }
-        .c{
-            width: 77px;
-        }
-        .d{
-            padding-left: 400px;
-        }
-
-    </style>
 </head>
 <body>
     <form>
@@ -228,6 +181,9 @@
                              <option value="1920">1920</option>
                         </select>
                    </span>
+                   <span>
+                       <input type="button" onmouseover="function hover()" value="?">
+                   </span>
                 </td>
             </tr>
             <tr>
@@ -238,6 +194,7 @@
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
                     </select>
+                    <input type="button" onmouseover="function hover()" value="?">
                 </td>
             </tr> 
             
@@ -245,7 +202,7 @@
         <table>
             <h3>Account Information</h3>
             <tr>
-                <td class="a"><label for="email">Email:</label></td>
+                <td class="a"><label for="email">Email:</label></td>l
                 <td><input type='text' ></td>
             </tr> 
             <tr>
@@ -269,12 +226,51 @@
                         <option value="book">Your Favourite book?</option>
                         <option value="date">Your Favourite date?</option>
                      </select>
+                     <input type="button" onmouseover="function hover()" value="?">
                 </td>
             </tr>
             <tr>
                 <td class="a"><label for="answer">Security answer:</label></td>
                 <td><input type='text'></td>
             </tr> 
+        </table>
+        <table>
+            <h3>Contact Information</h3>
+            <tr>
+                <td class="a"><label for="address">Address:</label></td>
+                <td><input type='text' ></td>
+            </tr> 
+            <tr>
+                <td class="a"><label for="city">City:</label></td>
+                <td><input type='text'></td>
+            </tr>
+            <tr>
+                <td class="a"><label for="state">State:</label></td>
+                <td>
+                    <select class="e" name="state">
+                        <option value="state">Choose a State</option>
+                        <option value="gujarat">Gujarat</option>
+                        <option value="maharashtra">Maharashtra</option>
+                        <option value="Rajashtan">Rajashtan</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="a"><label for="Zip code">Zip code:</label></td>
+                <td><input class="c" type='number'>&nbsp<input style="width: 77px" type="text" placeholder='optional'></td>
+            </tr>
+            <tr>
+                <td class="a"><label for="phone">Phone:</label></td>
+                <td>
+                    <input type='phone'>
+                    <input type="button" onmouseover="function hover()" value="?">
+                    <select style="width: 70px;" name="question">
+                        <option value="Mobile">Mobile</option>
+                        <option value="Phone">Land-line</option>
+                     </select>
+                     
+                </td>
+            </tr>
         </table>
     </div>
     <input type="reset" value="Reset">
