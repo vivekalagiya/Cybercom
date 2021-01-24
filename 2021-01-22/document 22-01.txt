@@ -1,0 +1,25 @@
+Today i learned and did practice basic info about php, syntax of php,varient function ,keyword, loop in php.
+
+phpinfo()
+php.ini
+identation in php(space)
+echo
+print
+output HTML using echo.print
+embedding php inside HTML
+comments in php
+error reporting
+variables
+concatenation
+if else statement
+elseif
+assignment operator
+comparison operator
+arithmetic operator
+logical operator
+tripal equal
+while loop
+do-while loop
+for loop
+switch statement
+
