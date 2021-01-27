@@ -1,6 +1,6 @@
 <?php
 
-echo 'my name is vivek';
+echo 'my name is vivek<br>';
 echo "i'm from ahmedabad";
 
 ?>
