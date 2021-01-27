@@ -1,6 +1,15 @@
+<html>
+<head>
+    <title>echo</title>
+</head>
+<body>
+    <p>it is <b>html</b> code</p>
+</body>
+</html>
+
 <?php
 
-echo 'my name is vivek';
-echo "i'm from ahmedabad";
+
+echo "it is php code";
 
 ?>

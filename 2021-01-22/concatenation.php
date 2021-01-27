@@ -3,9 +3,9 @@
 echo $name = 'vivek';
 $age = 21;
 $married = false;
-echo $num;
+echo $name;
 
-echo ' my name is '.$text.' my age is '.$num;
-echo "my name is $name my name is $age"
+echo ' my name is '.$name.' my age is '.$age;
+
 
 ?>

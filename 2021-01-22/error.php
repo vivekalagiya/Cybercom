@@ -1,3 +1,11 @@
+<html>
+<head>
+    <title>error</title>
+</head>
+<body>
+</body>
+</html>
+
 <?php
 
 /*
@@ -6,12 +14,12 @@ show the error in webpage
 
 */
 
-error_reporting(0);
-error_reporting(E_ALL);
-ini_set('error_reporting' , 'E_ALL');
+// error_reporting(0);
+// error_reporting(E_ALL);
+// ini_set('error_reporting' , 'E_ALL');
 
 
-echo $var = 'vivek'
-$var2 = 'alagiya';
+echo $var = 'vivek';
+echo $var2 = 'alagiya';
 
 ?>
