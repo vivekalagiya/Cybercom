@@ -1,0 +1,17 @@
+today i learned,
+die and exit function
+expresssion matching
+basic function 
+function with argument 
+function with return value 
+global variable in function 
+
+string -->
+string_word_count
+string_shuffled
+substr
+string_reversed
+similarity between two string
+trimmed string
+string_slashes
+stripslashes
