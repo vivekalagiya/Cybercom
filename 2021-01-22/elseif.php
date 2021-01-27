@@ -1,12 +1,3 @@
-<html>
-<head>
-    <title>elseif</title>
-</head>
-<body>
-</body>
-</html>
-
-
 <?php
 
 $num = 6;

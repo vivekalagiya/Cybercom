@@ -1,14 +1,6 @@
-<html>
-<head>
-    <title>ifelse</title>
-</head>
-<body>
-</body>
-</html>
-
 <?php
 
-$num = 12;
+$num = 6;
 if($num >= 10){
     echo " $num is greater than 10";
 }else{
