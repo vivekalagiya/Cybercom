@@ -1,0 +1,27 @@
+today i learned,
+
+
+Array =>
+    array('pasta', 'pizza', 'burger')
+Associative arrays =>
+    array('pasta'=> 300, 'pizza'=> 1000, 'burger'=>200)
+Multi-dimensional arrays => 
+    array('Healthy'=> array('maggie', 'pizza', 'burger'),'Unhealthy'=> array('salad','vegetable','pasta'));
+for each statement =>
+    foreach($food as $element => $inner_array)
+include and require Functions =>
+    execute even header.php already defined
+include_once and require_once Functions => 
+    only execute if header.php not defined
+expression matching =>
+    preg_match('/ /',$string)
+string Function string length => 
+    strlen($name)
+upper case lower case =>
+    strtolower($user_name)
+string position => 
+    strpos($string, $find, $offset)
+replacing part of string => 
+    substr_replace($string, $substring, strpos($string, $string_replace),5)
+replacing predefine part of string => 
+    str_replace($find, $replace, $string)
