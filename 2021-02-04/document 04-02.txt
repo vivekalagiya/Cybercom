@@ -1,1 +1,0 @@
-today i did practice of an object ,properties and method of object ,for..in loop ,this keyword and form validation in javascript.
