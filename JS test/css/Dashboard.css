@@ -11,7 +11,7 @@ body
 }
 .box-1
 {
-    background-color: #f9cb9c;
+    background-color: #f7bc81;
     min-height: 100px;
     min-width: 220px;
     border: 1px;
@@ -21,7 +21,7 @@ body
 }
 .box-2
 {
-    background-color: #b4a7d6;
+    background-color: #ad9bda;
     min-height: 100px;
     min-width: 220px;
     border: 1px;
@@ -31,7 +31,7 @@ body
 }
 .box-3
 {
-    background-color: #f4cccc;
+    background-color: #f7abab;
     min-height: 100px;
     min-width: 220px;
     border: 1px;
@@ -96,5 +96,7 @@ nav a:hover {
 color: gray;
 }
 
-
+.edit-user-btn{
+    visibility: hidden;
+}
 
