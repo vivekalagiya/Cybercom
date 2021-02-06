@@ -34,15 +34,126 @@
             <input type="text" name="name" id="name" placeholder="Name"/>
             <input type="text" name="email" id="email" placeholder="Email"/>
             <input type="password" name="password" id="password" placeholder="Password"/>
-            <input type="date" name="birthDate" id="birthDate" placeholder="dateOfBirth"/>
+            <input type="date" name="birthDate" id="birthdate" placeholder="dateOfBirth"/>
         </div>
         
-        <input type="submit" id="adduser" class="add-user-btn" name="adduser" value="Add User" onclick="addUser();" />
-        <input type="button" id="editUser" class="edit-user-btn" name="login" value = "Update User" onclick="editUser();"/>   
+        <input type="submit" id="addUser" class="add-user-btn" name="adduser" value="Add User" onclick="addUser();" />
+        <input type="submit" id="addUser" class="edit-user-btn" name="login" value = "Update User" onclick="editUser();"/>   
     
         <h1>User List</h1>
+
+        
+        
     
     <script src="adduser.js"></script>
+    
+    <script type="text/javascript">
+        var m = 0;
+        var n = 0;
+        var flagy = 0;
+        var a;
+        var b;
+        document.write('<table id="table" border="1" class="table table-data2" id="table-user">');
+        document.write('<thread>');
+
+        document.write('<th>Name</th>');
+        document.write('<th>Email</th>');
+        document.write('<th>Password</th>');
+        document.write('<th>Birthdate</th>');
+        document.write('<th>Age</th>');
+        document.write('<th colspan="2">Actions</th>');
+
+        document.write('</thread>');
+        document.write('<tbody>');
+        document.write('<tr>');
+
+
+        var arrUser = localStorage.getItem('arrUser');
+        var items = JSON.parse(arrUser);
+
+        arrUser = items;
+
+        //var k = 0;
+        if (arrUser) {
+            for (var k = 0; k < arrUser.length; k++) {
+                document.write('<td>' + arrUser[k].name + '</td>');
+                document.write('<td>' + arrUser[k].email + '</td>');
+                document.write('<td>' + arrUser[k].password + '</td>');
+                document.write('<td>' + arrUser[k].userbirthDate + '</td>');
+                document.write('<td>' + getAge(arrUser[k].userbirthDate) + '</td>');
+
+                document.write('<td><a href="#" name="aTag" id="aTag" value="' + k + '" onClick="editData(' + arrUser[k].index + ')">Edit</a></td>');
+
+                document.write('<td>');
+
+
+                document.write("<a href='#' onClick='deleteData(" + arrUser[k].index + ")'>Delete</a>");
+                document.write("</td>");
+
+                document.write('</tr>');
+
+                //  k++;
+            }
+        }
+        function deleteData(index) {
+            var items = localStorage.getItem('arrUser');
+            var arrUser = JSON.parse(items);
+            var index_of;
+
+            for (var s = 0; s < arrUser.length; s++) {
+                index_of = arrUser.indexOf(arrUser[s]);
+                console.log(index_of);
+
+                if (index != 0) {
+                    arrUser.splice(index, 1);
+                    console.log(index_of);
+                }
+                if (index == 0) {
+                    arrUser.splice(index, 1);
+                }
+
+                localStorage.setItem('arrUser', JSON.stringify(arrUser));
+                location.reload();
+                break;
+            }
+            for (var g = 0; g < arrUser.length; g++) {
+                index_of = arrUser.indexOf(arrUser[g]);
+                if (index_of != arrUser[g].index) {
+                    arrUser[g].index = index_of;
+                }
+            }
+            localStorage.setItem('arrUser', JSON.stringify(arrUser));
+            location.reload();
+        }
+
+        function editData(index) {
+            var arrUser1 = localStorage.getItem('arrUser');
+            var items = JSON.parse(arrUser1);
+
+
+            let link = document.querySelector("#aTag");
+            let target1 = link.getAttribute('value');
+            link.setAttribute('value', index);
+
+            for (var j = 0; j < items.length; j++) {
+                if (index == items[j].index) {
+                    document.getElementById('name1').value = items[j].name;
+                    document.getElementById('email').value = items[j].email;
+                    document.getElementById('password').value = items[j].password;
+                    document.getElementById('birthDate').value = items[j].userbirthDate;
+                    //document.getElementById('addUser').display = "none";
+                    document.getElementById("addUser").value = "Update";
+                }
+            }
+            //return "hello "+c;
+        }
+
+        document.write('</tbody></table>');	
+    </script>
+
+    <script>
+        document.getElementById("name").innerHTML = "Hello " + sessionStorage.getItem("name");
+    </script>
 
     </body>
 </html>

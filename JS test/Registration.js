@@ -1,5 +1,3 @@
-const form = document.getElementById('form');
-console.log('chceck...');
 
 
 var arrAdmin = [];

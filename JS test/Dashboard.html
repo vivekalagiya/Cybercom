@@ -4,9 +4,16 @@
         <title>Dashboard</title>
         <link rel="stylesheet" href="css/Dashboard.css" />
     </head>
-    <body>
+    
         
 <body>
+    <script>
+
+        if (!sessionStorage.getItem('name')) {
+            window.location.href = "login.html";
+        }
+    
+    </script>
 
     <nav>
         <ul>
@@ -55,6 +62,9 @@
         <label class="bday" id="1"></label>
         <label class="bday"> Birthday.</label>
     </div>
+
+    <script src="adduser.js"></script>
+
 
     </body>
 </html>

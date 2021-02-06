@@ -1,34 +1,55 @@
-function addUser() {
-    alert("test");
-    var fname = document.getElementById('name');
-    var email = document.getElementById('email');
-    var pwd = document.getElementById('password');
-    var dob = document.getElementById('birthDate');
+function logout() {
+    sessionStorage.clear();
+    window.location.href = "Login.html";
+}
 
-    var admin = {
+
+var arrUser = [];
+var flag = 0;
+
+function addUser() {
+
+    var fname = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var pwd = document.getElementById('password').value;
+    var dob = document.getElementById('birthdate').value;
+
+
+    var user = {
         name: fname,
         email: email,
         password: pwd,
-        birthDate: dob
+        birthdate: dob
     };
 
-    if (localStorage.setItem('admin')) {
-        admin = JSON.parse(localStorage.getItem('admin'));
-        console.log(admin);
+    
+    if (localStorage.getItem('arrUser')) {
+        arrUser = JSON.parse(localStorage.getItem('arrUser'));
+        console.log(arrUser);
     }
 
-}
+    function user_exist() {
+        for (var i = 0; i < arrUser.length; ++i) {
 
-document.write('<table id="table" border="1" class="table table-data2" id="table-user">');
-document.write('<thread>');
+            var temp = arrUser[i];
 
-document.write('<th>Name</th>');
-document.write('<th>Email</th>');
-document.write('<th>Password</th>');
-document.write('<th>Birthdate</th>');
-document.write('<th>Age</th>');
-document.write('<th colspan="2">Actions</th>');
+            if (temp.name == name) {
+                flag = 1;
+                alert("user exist");
+                break;
+            }
+        }
+    }
+    user_exist();
+    if (flag === 0) {
+        arrUser.push(admin);
+        console.log(arrUser);
+        localStorage.setItem("arrUser", JSON.stringify(arrUser));
+        var message = window.confirm("user added");
+        
+    }
 
-document.write('</thread>');
-document.write('<tbody>');
-document.write('<tr>');
+};
+
+
+
