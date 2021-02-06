@@ -30,9 +30,9 @@ function addElement() {
     }
 
     function admin_exist() {
-        for (var index = 0; index < arrAdmin.length; ++index) {
+        for (var i = 0; i < arrAdmin.length; ++i) {
 
-            var temp = arrAdmin[index];
+            var temp = arrAdmin[i];
 
             if (temp.email == email) {
                 flag = 1;
@@ -48,7 +48,7 @@ function addElement() {
         localStorage.setItem("arrAdmin", JSON.stringify(arrAdmin));
         var message = window.confirm("registerd successfully");
         if (message) {
-            window.location.href = "login.html";
+            window.location.href = "Login.html";
         }
     }
 
