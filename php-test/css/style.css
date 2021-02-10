@@ -1,0 +1,51 @@
+body {
+    font-size: 120%;
+    background: #F8F8FF;
+    border: black solid 1px;
+    
+  }
+  
+  .header {
+    width: 100%;
+    margin: 50px auto 0px;
+    color: black;
+    text-align: center;
+    border-bottom: none;
+    padding: 20px;
+  }
+
+  img {
+      width: 20%;
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #555cbb;
+    border: none;
+    border-radius: 5px;
+  }
+ 
